@@ -1,0 +1,304 @@
+@import url('https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,400..900;1,400..900&display=swap');
+
+/* Menu */
+
+.menu1 {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px;
+}
+
+
+
+.list_menu ul {
+    display: flex;
+    align-items: center;
+    list-style-type: none;
+    margin-top: 10px;
+
+}
+
+.list_menu li {
+    margin-right: 56px;
+    font-size: 20px;
+}
+
+.list_menu a {
+    text-decoration: none;
+    color: black;
+}
+
+.logo {
+    margin-right: 230px;
+}
+
+.menu__link {
+    font-size: 20px;
+    position: relative;
+    display: inline-block;
+    outline: none;
+}
+
+.menu__link::after {
+    content: "";
+    display: block;
+    position: absolute;
+    bottom: -10px;
+    height: 3px;
+    width: 100%;
+    background-color: #91916C;
+    transform: scaleX(0);
+    transition: transform 0.3s ease-in-out;
+    transform-origin: left center;
+}
+
+.menu__link:hover::after,
+.menu__link:focus::after {
+    transform: scaleX(1);
+
+
+}
+
+/* Ads */
+.big-text {
+    font-family: "Playfair Display", serif;
+    color: #E5A985;
+    margin-top: 50px;
+    font-size: 56px;
+    font-weight: bold;
+}
+
+.small-text {
+    font-size: 24px;
+    line-height: 45px;
+    margin-top: 40px;
+}
+
+.but-email {
+    margin-top: 70px;
+}
+
+.email {
+    background-color: #E5E5E5;
+    border: 0px;
+    border-top-left-radius: 15px;
+    border-bottom-left-radius: 15px;
+    color: #C4C4C4;
+    font-size: 20px;
+    padding-left: 25px;
+    width: 465px;
+    height: 58px;
+}
+
+.shop-now {
+    background-color: #91916C;
+    color: white;
+    font-size: 20px;
+    font-weight: 400;
+    border: 0;
+    border-top-right-radius: 15px;
+    border-bottom-right-radius: 15px;
+    height: 58px;
+    width: 160px;
+    transition: all 0.3s ease-in-out;
+}
+
+.shop-now:hover,
+.shop-now:focus {
+    background-color: #bbbb91;
+    font-size: 24px;
+
+}
+
+/* Product */
+.product {
+    padding-top: 84px;
+    background-color: #E1E1C2;
+}
+
+.product-h {
+    color: #91916C;
+    font-size: 32px;
+    font-weight: bold;
+    text-align: center;
+}
+
+.line-line {
+    width: 288px;
+    height: 3px;
+    background-color: #91916C;
+    margin-top: 20px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.title-product {
+    color: #65653E;
+    font-family: "Playfair Display", serif;
+    font-size: 48px;
+    text-align: center;
+    font-weight: bold;
+    margin-top: 39px;
+    letter-spacing: 3px;
+    line-height: 140%;
+}
+
+.girl-in-sunrise {
+    display: block;
+    margin: auto;
+    margin-top: 54px;
+}
+
+.p-product {
+    color: #333333;
+    font-size: 20px;
+    font-weight: bold;
+    text-align: center;
+    margin-top: 56px;
+    padding-bottom: 80px;
+}
+
+.prev-btn,
+.next-btn {
+    position: absolute;
+    top: 160%;
+    height: 58px;
+    width: 58px;
+    transform: translateY(-50%);
+}
+
+.prev-btn {
+    left: 220px;
+
+}
+
+.next-btn {
+    top: 1525px;
+    right: 220px;
+}
+
+
+/* SERVICES */
+
+.services-h {
+    color: #91916C;
+    font-size: 32px;
+    font-weight: bold;
+    text-align: center;
+    margin-top: 95px;
+}
+
+.title-services {
+    color: #E5A985;
+    font-family: "Playfair Display", serif;
+    font-size: 48px;
+    text-align: center;
+    font-weight: bold;
+    margin-top: 39px;
+    letter-spacing: 2px;
+    line-height: 140%;
+    margin-bottom: 70px;
+
+}
+
+.service-tab {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: row;
+
+}
+
+.p-service {
+    text-align: center;
+    font-size: 24px;
+    margin-top: 30px;
+    margin-bottom: 30px;
+}
+
+.p-service1 {
+    text-align: center;
+    font-size: 24px;
+    color: white;
+    margin-top: 30px;
+    margin-bottom: 30px;
+
+}
+
+.div-service {
+    background-color: #FAE3D8;
+    border-radius: 20px;
+    margin: 20px;
+    transition: transform 0.5s ease-in-out;
+}
+
+.div-service1 {
+    background-color: #91916C;
+    border-radius: 20px;
+    margin: 20px;
+    transition: transform 0.5s ease-in-out;
+}
+
+.img-service {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 351px;
+    height: 359px;
+    border-radius: 20px;
+}
+.div-service:hover,
+.div-service:focus {
+    transform: scale(1.2);
+}
+.div-service1:hover,
+.div-service1:focus {
+    transform: scale(1.2);
+}
+
+/*Blog*/
+
+.blog{
+    margin-top: 50px;
+    background-color: #FFEFE7;
+    padding-top: 30px;
+}
+.card1{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: row;
+    padding:  50px;
+}
+.title-blog{
+    color: #795744;
+    font-family: "Playfair Display", serif;
+    font-size: 48px;
+    text-align: center;
+    font-weight: bold;
+    margin-top: 39px;
+    letter-spacing: 2px;
+}
+.line-line-2{
+    background-color:#bd957e;
+    width: 288px;
+    height: 3px;
+    margin-top: 20px;
+    margin-left: auto;
+    margin-right: auto;
+}
+.blog-h{
+    color: #bd957e;
+    font-size: 32px;
+    font-weight: bold;
+    text-align: center;
+    margin-top: 95px;
+}
+.card1{
+    margin-bottom: 1.5rem;
+}
+.text-blog{
+    margin-left: 20px;
+    font-size: 20px;
+}
